@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background 0.3s, color 0.3s;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  color: #000;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(102, 126, 234, 0.15);
+  padding: 32px 24px;
+  max-width: 400px;
+  width: 100%;
+  margin: 24px;
+}
+
+h1,
+h2,
+h3 {
+  color: #000;
+  margin-bottom: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+button {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #764ba2, #667eea);
+  opacity: 0.95;
+}
+
+input,
+textarea {
+  border: 1px solid #b3a1e6;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 16px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  background: #f8f7fc;
+  color: #333;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #764ba2;
+  background: #f3f0fa;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #000;
+  font-weight: 500;
+}
